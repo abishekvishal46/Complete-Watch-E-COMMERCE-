@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .dashboard-container {
+    display: flex;
+  }
+  #content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+  .side-menu {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .side-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .side-menu ul li {
+    margin-bottom: 10px;
+  }
+  
+  .side-menu ul li button {
+    width: 100%;
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .side-menu ul li button:hover {
+    background-color: #777;
+  }
+  
+  /* Add more styles as needed for your website */
+  /* ... (previous CSS remains unchanged) ... */
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  /* ... (previous CSS remains unchanged) ... */
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px; /* Adjust the margin to match the side menu width */
+    height: 100vh; /* Adjust the height as needed */
+  }
+  /* ... (previous CSS remains unchanged) ... */
+
+.status {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .section {
+    display: none;
+    text-align: center; /* Center-align the content within each section */
+  }
+  
+  .section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section li {
+    margin-bottom: 10px;
+  }
+  
+  .section h2 {
+    color: #333;
+  }
+  
+  .section span.received {
+    background-color: #4CAF50; /* Green background for "Received" status */
+    color: white;
+  }
+  
+  .section span.assigned {
+    background-color: #f39c12; /* Orange background for "Assigned" status */
+    color: white;
+  }
+  
+  .section span.delivered {
+    background-color: #3498db; /* Blue background for "Delivered" status */
+    color: white;
+  }
+  
+  /* ... (other styles remain unchanged) ... */
+  
+  
+  /* ... (other styles remain unchanged) ... */
+  
+  
+  /* ... (other styles remain unchanged) ... */
+  

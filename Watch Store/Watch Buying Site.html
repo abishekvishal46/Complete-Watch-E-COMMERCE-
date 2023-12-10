@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Store</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<header class="dark-header">
+    <div class="container">
+        <div class="logo">
+            <img src="./images/logo.jpg" width="120px" height="120px" alt="Watch Store Logo">
+        
+        </div>
+        <nav class="navigation">
+            <ul> 
+                <li><button href="#" class="tear-off-button">Home</button></li>
+                            <li>
+                                
+                                
+                                <div class="tear-off-container">
+                                    <button id="tearOffButton" class="tear-off-button">Shop</button>
+                                    <!-- Tear-off menu container -->
+                                    <div id="tearOffMenu" class="tear-off-menu">
+                                        <a href="#">Rolex</a>
+                                        <a href="#">Titan</a>
+                                        <a href="#">Omega SA</a>
+                                        <a href="#">Patek Philippe</a>
+                                        <a href="#">TAG Heuer</a>
+                                        <a href="#">Audemars Piguet</a>
+                                    </div>
+                                </div>
+                                
+                                <script>
+                                    
+
+document.addEventListener('DOMContentLoaded', function() {
+    const tearOffButton = document.getElementById('tearOffButton');
+    const tearOffMenu = document.getElementById('tearOffMenu');
+
+    tearOffButton.addEventListener('mouseover', function() {
+        tearOffMenu.style.display = 'block';
+    });
+
+    tearOffButton.addEventListener('mouseout', function(event) {
+        if (!tearOffButton.contains(event.relatedTarget) && !tearOffMenu.contains(event.relatedTarget)) {
+            tearOffMenu.style.display = 'none';
+        }
+    });
+});
+
+                                </script>
+                                
+                               
+                                </li>
+                
+                <li><button  class="tear-off-button"><a href= "#abouts" style="color: black; font-size: small; ">About Us</a></button></li>
+                <div class="tear-off-container"><li><button  class="tear-off-button"><a href= "#contactid" style="color: black; font-size: small; ">Contact</a></button>
+                </li>
+                </div>
+                
+                
+                
+    
+            </ul>
+        </nav>
+        <div class="cta-button">
+            <a href="Watch Selling Site.html" class="button">Seller Option</a>
+        </div>
+    
+
+    <!-- Tear-off menu container -->
+
+</header>
+<section class="hero-section" >
+    <div class="container" >
+        <div class="hero-content">
+            
+            <h1>Discover Timeless Elegance</h1>
+            <p>Explore our exquisite collection of watches that redefine style and sophistication.</p>
+            <a href="#" class="button">Shop Now</a>
+        </div>
+    </div>
+</section>
+
+<section class="featured-products dark-theme">
+    <div class="container">
+        <h2>Featured Products</h2>
+
+        <div class="product-card">
+            <img src="./images/watch2.jpg" alt="Classic Timepiece">
+            <h3>Submariner</h3>
+            <p>Experience elegance with this timeless watch.</p>
+            <span class="price">$199.99</span>
+            <a href="#" class="button">View Details</a>
+        </div> 
+    
+        <div class="product-card">
+            
+            <img src="./images/watch 3.webp" height="728px" width="524px" alt="Luxury Edition">
+            <h3>G-Shock</h3>
+            <p>Indulge in luxury with our premium collection.</p>
+            <span class="price">$499.99</span>
+            <a href="#" class="button">View Details</a>
+        </div>
+
+        <!-- Add more product cards as needed -->
+
+    </div>
+</section>
+<section class="usp-section dark-theme">
+    <div class="container">
+        <div class="usp-content">
+            <div class="usp-item">
+                <img src="./images/bestq.png" alt="Quality Icon">
+                <h3>Uncompromising Quality</h3>
+                <p>We source the finest materials to ensure the durability and precision of every watch.</p>
+            </div>
+
+            <div class="usp-item">
+                <img src="./images/unique.jpg" alt="Unique Design Icon">
+                <h3>Unique Designs</h3>
+                <p>Discover exclusive watch designs that stand out and make a statement.</p>
+            </div>
+
+            <div class="usp-item">
+                <img src="./images/worldie.jpg" alt="Free Shipping Icon">
+                <h3>Free Worldwide Shipping</h3>
+                <p>Enjoy free shipping on all orders, no matter where you are located around the globe.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="abouts"  class="about-us-section dark-theme">
+    <div class="container">
+        <div class="about-us-content">
+            <h2>About Us</h2>
+            <p>Welcome to Watch Store, where time meets elegance. Established in 20XX, we take pride in offering a curated collection of premium watches that reflect sophistication and style.</p>
+            <p>Our mission is to provide watch enthusiasts with timeless pieces that go beyond mere timekeeping. Each watch in our collection is a testament to craftsmanship, quality, and a passion for horology.</p>
+            <p>At Watch Store, we believe in delivering an exceptional shopping experience. Our team is dedicated to ensuring your satisfaction, from the moment you explore our collection to the joy of wearing a watch that suits your lifestyle.</p>
+        </div>
+    </div>
+</section>
+<section class="testimonials-section dark-theme">
+    <div class="container">
+        <h2>What Our Customers Say</h2>
+
+        <div class="testimonial-card">
+            <img src="./images/cus1.png" alt="Customer 1">
+            <p>"The quality of the watches at Watch Store is unmatched. I've been a loyal customer for years, and each piece is a work of art."</p>
+            <p class="customer-name">John Doe</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="./images/cus2.png" alt="Customer 2">
+            <p>"I love the unique designs and attention to detail. The shopping experience is always delightful, and the watches are delivered promptly."</p>
+            <p class="customer-name">Jane Smith</p>
+        </div>
+
+        <!-- Add more testimonial cards as needed -->
+
+    </div>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="dark-header">
+    <!-- Your header content goes here -->
+</header>
+
+<section class="product-categories dark-theme">
+    <div class="container">
+        <h2>Product Categories</h2>
+
+        <!-- Luxury Watches -->
+        <div class="category-card">
+            <img src="./images/acategory1.jpg" alt="Luxury Watches">
+            <h3>Luxury Watches</h3>
+            <p>Explore our collection of high-end luxury watches.</p>
+            <a href="#" class="button">View Collection</a>
+        </div>
+
+        <!-- Sports Watches -->
+        <div class="category-card">
+            <img src="./images/category2.webp" alt="Sports Watches">
+            <h3>Sports Watches</h3>
+            <p>Discover durable and stylish sports watches for every adventure.</p>
+            <a href="#" class="button">View Collection</a>
+        </div>
+
+        <!-- Fashion Watches -->
+        <div class="category-card">
+            <img src="./images/category3.avif" alt="Smart Watches">
+            <h3>Smart Watches</h3>
+            <p>Stay on trend with our fashionable and chic watch designs.</p>
+            <a href="#" class="button">View Collection</a>
+        </div>
+
+        <!-- Add more category cards as needed -->
+
+    </div>
+</section>
+<section class="newsletter dark-theme">
+    <div class="container">
+        <h2 style="margin: left;">Our Newsletter</h2>
+
+    </div>
+        <p style="text-align: center;"> Stay updated with the latest watch trends and exclusive offers.</p>
+        
+        <form action="#" method="post" class="newsletter-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+</section>
+<section class="blog-section dark-theme">
+    <div class="container">
+        <h2>Latest News</h2>
+
+        <div class="blog-card">
+            <img src="./images/news.webp" alt="Blog Image">
+            <h3>Exploring Time: A Journey Through Watchmaking</h3>
+            <p class="date">Published on August 15, 2023</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis justo in elit vestibulum...</p>
+            <a href="#" class="button">Read More</a>
+        </div>
+
+        <div class="blog-card">
+            <img src="./images/newsa.jpg" alt="Blog Image">
+            <h3>The Evolution of Watch Design</h3>
+            <p class="date">Published on July 28, 2023</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis justo in elit vestibulum...</p>
+            <a href="#" class="button">Read More</a>
+        </div>
+
+        <!-- Add more blog cards as needed -->
+
+    </div>
+</section>
+<section class="contact-info-section dark-theme" id="contactid">
+    <div class="container">
+        <h2>Contact Information</h2>
+
+        <div class="contact-info-card">
+            <img src="./images/location-icon.png" alt="Location Icon">
+            <h3>Visit Us</h3>
+            <p>123 Watch Street, Cityville, Country</p>
+        </div>
+
+        <div class="contact-info-card">
+            <img src="./images/emailicon.png" alt="Email Icon">
+            <h3>Email Us</h3>
+            <p>info@example.com</p>
+        </div>
+
+        <div class="contact-info-card">
+            <img src="./images/phone-icon.png" alt="Phone Icon">
+            <h3>Call Us</h3>
+            <p>+123 456 7890</p>
+        </div>
+
+        <!-- Add more contact info cards as needed -->
+
+    </div>
+</section>
+
+<!-- The rest of your website content goes here -->
+
+</body>
+</html>
+
+
+<!-- Add this script in the head of your HTML file or in a separate script.js file -->
+<!-- Add this script in the head of your HTML file or in a separate script.js file -->
+
+
+
+
+<!-- The rest of your website content goes here -->
+
